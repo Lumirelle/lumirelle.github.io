@@ -1,0 +1,532 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    <link rel="icon" href="/img/favicon.ico">
+  
+  
+      <meta name="author" content="Lyana-nullptr">
+  
+  
+      <meta name="subtitle" content="不知壹乎生，小阁思常在。">
+  
+  
+      <meta name="description" content="不知壹乎生，小阁思常在。">
+  
+  
+      <meta name="keywords" content=",Blog, 个人博客, 技术博客, 生活博客">
+  
+  
+    <link rel="alternate" href="/atom.xml " title="Family Of Lyana" type="application/atom+xml">
+  
+
+  
+
+  <title>影像系统工程师冲刺计划 | Family Of Lyana</title>
+
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="/css/style.css" >
+  <link rel="stylesheet" href="/css/partial/dark.css" >
+
+  
+  
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/partial/highlight/atom-one-light.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/a2396837/CDN@latest/css/iconfont.css">
+    
+  
+
+  
+    <script src="/js/todark.js"></script>
+    
+<meta name="generator" content="Hexo 7.2.0"></head>
+</html>
+    
+<div class="nav index" style="height: 60px;">
+    <div class="title animated fadeInDown">
+        <div class="layui-container">
+                <div class="nav-title"><a href="/" title="Family Of Lyana">Family Of Lyana</a></div>
+            <div class="nav-list">
+                <button> <span class=""></span><span style="display: block;"></span><span class=""></span> </button>
+                <ul class="layui-nav" lay-filter="">
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/ ">
+                            <i class=" fab fa-fort-awesome " style="color: rgb(255 107 107);"></i>
+                            <span class="layui-nav-item-name">首页</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/archives/ ">
+                            <i class=" fas fa-archive " style="color: rgb(10 189 227);"></i>
+                            <span class="layui-nav-item-name">归档</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/tags/ ">
+                            <i class=" fas fa-hashtag " style="color: rgb(254 202 87);"></i>
+                            <span class="layui-nav-item-name">标签</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/categories/ ">
+                            <i class=" far fa-folder-open " style="color: rgb(29 209 161);"></i>
+                            <span class="layui-nav-item-name">分类</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/about/ ">
+                            <i class=" fab fa-grav " style="color: rgb(154 106 247);"></i>
+                            <span class="layui-nav-item-name">关于</span>
+                        </a>
+                    </li>
+                    
+                        
+                        
+                        
+                        
+                    <li class="layui-nav-item">
+                        <a href="/guestbook/ ">
+                            <i class=" fab fa-telegram " style="color: hsl(205deg 100% 50%);"></i>
+                            <span class="layui-nav-item-name">留言</span>
+                        </a>
+                    </li>
+                    
+                    
+                        <li class="layui-nav-item" id="btn-toggle-dark">🌙</li>
+                    
+                    <span class="layui-nav-bar" style="left: 342px; top: 78px; width: 0px; opacity: 0;"></span>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<header class="header">
+        
+            <div class="logo">
+                    <a href="/"><img src="https://avatars.githubusercontent.com/u/51262009" onerror=this.onerror=null,this.src="/img/loading.gif"></a>
+            </div>
+         
+    </div>
+     
+
+            <div class="motto">
+                <span>和明天说你好！OvO</span>
+            </div>
+    
+    
+            <div class="social">
+                
+                        <a class="social-icon" href="https://github.com/Lyana-nullptr" target="_blank" title="Github">
+                            <i class="iconfont icon-GitHub" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="mailto:shabbyacc@outlook.com" target="_blank" title="Email">
+                            <i class="iconfont icon-email" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="https://steamcommunity.com/id/the-most-handsome-man" target="_blank" title="Steam">
+                            <i class="iconfont icon-steam" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="https://space.bilibili.com/552355730" target="_blank" title="Bilibili">
+                            <i class="iconfont icon-bilibili" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="https://music.163.com/#/user/home?id=564549068" target="_blank" title="Netmusic">
+                            <i class="iconfont icon-wangyiyunyinle1" aria-hidden="true"></i>
+                          </a>
+                 
+                        <a class="social-icon" href="/atom.xml" target="_blank" title="rss">
+                            <i class="iconfont icon-rss" aria-hidden="true"></i>
+                          </a>
+                 
+            </div>
+     
+</header>
+
+    
+<article id="post">
+  <div class="post-title">影像系统工程师冲刺计划</div>
+  
+<div class="post-meta">
+    
+    
+      <div class="post-meta-item date">
+        <span title="发表于 2024.11.05"><i class="far fa-calendar-alt"></i> 2024.11.05</span>
+      </div>
+      <div class="post-meta-item updated">
+        <span title="更新于 2024.11.06"><i class="far fa-calendar-check"></i> 2024.11.06</span>
+      </div>
+     
+    
+      <div class="post-meta-item categories">
+        
+          <i class="fas fa-inbox article-meta__icon"></i> <a href="/categories/%E5%86%B2%E5%88%BA%E8%AE%A1%E5%88%92/">冲刺计划</a>
+        
+          <i class="fas fa-inbox article-meta__icon"></i> <a href="/categories/%E5%86%B2%E5%88%BA%E8%AE%A1%E5%88%92/%E5%BD%B1%E5%83%8F%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88/">影像系统工程师</a>
+        
+      </div>
+     
+    
+     <div class="post-meta-item wordcount">
+        
+          <i class="fas fa-pencil-alt"></i> <span class="post-count">2.5k 字</span>
+           
+        
+          <i class="far fa-clock"></i> <span class="post-count">8 分钟</span>
+                               
+      </div>
+     
+</div>
+
+
+  
+    <div id="toc" class="toc">
+          <h1>目录</h1>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%B5%E5%AD%90%E7%9B%B8%E6%9C%BA%E6%88%90%E5%83%8F%E5%8E%9F%E7%90%86"><span class="toc-number">1.</span> <span class="toc-text">电子相机成像原理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%83%8F%E7%B4%A0"><span class="toc-number">2.</span> <span class="toc-text">像素</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%9D%E5%85%89%E4%B8%89%E8%A6%81%E7%B4%A0"><span class="toc-number">3.</span> <span class="toc-text">曝光三要素</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9B%9D%E5%85%89%E8%A1%A5%E5%81%BF"><span class="toc-number">4.</span> <span class="toc-text">曝光补偿</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%84%A6%E8%B7%9D"><span class="toc-number">5.</span> <span class="toc-text">焦距</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%86%E8%A7%92%E6%9E%84%E5%9B%BE"><span class="toc-number">5.1.</span> <span class="toc-text">视角构图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%8F%E8%A7%86%E6%95%88%E6%9E%9C"><span class="toc-number">5.2.</span> <span class="toc-text">透视效果</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%99%AF%E6%B7%B1%E6%8E%A7%E5%88%B6"><span class="toc-number">5.3.</span> <span class="toc-text">景深控制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E7%AE%97%E6%B3%95"><span class="toc-number">6.</span> <span class="toc-text">图像处理算法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%BB%E9%A9%AC%E8%B5%9B%E5%85%8B%E7%AE%97%E6%B3%95"><span class="toc-number">6.1.</span> <span class="toc-text">去马赛克算法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8B%9C%E5%B0%94%E6%BB%A4%E8%89%B2%E9%98%B5%E5%88%97"><span class="toc-number">6.1.1.</span> <span class="toc-text">拜尔滤色阵列</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%80%E9%82%BB%E8%BF%91%E6%8F%92%E5%80%BC"><span class="toc-number">6.1.2.</span> <span class="toc-text">最邻近插值</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%8C%E7%BA%BF%E6%80%A7%E6%8F%92%E5%80%BC"><span class="toc-number">6.1.3.</span> <span class="toc-text">双线性插值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%99%BD%E5%B9%B3%E8%A1%A1%EF%BC%88WB%EF%BC%89"><span class="toc-number">6.2.</span> <span class="toc-text">白平衡（WB）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%83%85%E6%99%AF%E6%A8%A1%E5%BC%8F"><span class="toc-number">7.</span> <span class="toc-text">情景模式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9C%E6%99%9A%E6%A8%A1%E5%BC%8F"><span class="toc-number">7.1.</span> <span class="toc-text">夜晚模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%BA%E5%83%8F%E6%A8%A1%E5%BC%8F"><span class="toc-number">7.2.</span> <span class="toc-text">人像模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%93%E6%8B%8D%E6%A8%A1%E5%BC%8F"><span class="toc-number">7.3.</span> <span class="toc-text">抓拍模式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Android-Camera-%E6%A1%86%E6%9E%B6"><span class="toc-number">8.</span> <span class="toc-text">Android Camera 框架</span></a></li></ol>
+      </div>
+    
+  <div class="content">
+        <div><h2 id="电子相机成像原理"><a href="#电子相机成像原理" class="headerlink" title="电子相机成像原理"></a>电子相机成像原理</h2><p>电子相机中有一个类似于我们人类感官细胞的元件，<strong>感光元件</strong>（如 CCD、CMOS 传感器）。感光元件上面有大量的<strong>像素</strong>，像素会利用光电效应将照射到其上的光子转化为电子，从而形成电荷，这些电荷的数量与光子的数量（即光的亮度）成比例。这样，感光元件就将<strong>光亮度的强弱</strong>转化为了<strong>电信号的强弱</strong>。接下来，这些电信号会被传递到相机内部的图像处理芯片（如 ISP，即图像信号处理器）。图像处理芯片会将<strong>电信号的强弱</strong>转化为<strong>数字值的大小</strong>，再通过<strong>图像处理算法</strong>处理成不同的像素亮度和颜色，最终形成图像文件。</p>
+<blockquote>
+<p><strong>备注：</strong></p>
+<p>感光元件通常采用<strong>拜耳滤色阵列</strong>，每个像素只捕捉一种颜色（红、绿、蓝）。</p>
+</blockquote>
+<h2 id="像素"><a href="#像素" class="headerlink" title="像素"></a>像素</h2><p>像素是感光元件上每个接收光子并转化为电子的最小单位。<strong>更多的像素</strong>意味着<strong>更高的图像分辨率</strong>，而<strong>更大的像素</strong>意味着每个像素能够捕捉到的光线、容纳的电子越多，<strong>噪声更少</strong>、<strong>动态范围更大</strong>。越大的感光元件能够拥有更多的像素和更大的像素，这也是“底大一级压死人”的原因。</p>
+<h2 id="曝光三要素"><a href="#曝光三要素" class="headerlink" title="曝光三要素"></a>曝光三要素</h2><p>曝光的多少影响了成像画面的亮暗，由<strong>曝光三要素</strong>决定。除此之外，<u>光圈值会影响景深</u>，<u>快门速度影响画面的凝固程度</u>，<u>感光度影响画面细腻程度</u>。</p>
+<ul>
+<li><p><strong>光圈值（F）：</strong>光圈大小与光圈值成反比。焦距一定时，<strong>光圈值越小</strong>，<strong>光圈直径越大</strong>，进入的光越多，光亮度越强，电信号越强，<strong>画面就越亮</strong>，同时，光线会聚焦到一个较小的区域，导致焦点前后迅速失焦，造成<strong>浅景深</strong>。</p>
+</li>
+<li><p><strong>快门速度（S）：快门速度越大</strong>，曝光时间越长，接收光子的数量越多，光亮度越强，电信号越强，<strong>画面就越亮</strong>，同时，感光元件接受曝光的时间越长，物体在曝光期间移动的距离也越长，<strong>画面凝固程度越低</strong>。</p>
+</li>
+<li><p><strong>感光度（ISO）：感光度越大</strong>，对像素中的电信号的增益也越大，<strong>画面就越亮</strong>，同时，噪声也增多，动态范围降低，再加上放大是非线性的，会造成更多的细节损失，<strong>画面细腻程度越差</strong>。</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>备注：</strong></p>
+<ol>
+<li><p>景深是指在图像中，前景和背景之间能够保持清晰的范围，也就是<strong>对焦区域的深度</strong>。</p>
+</li>
+<li><p>光圈值的计算公式：<br>$$<br>光圈值&#x3D;\frac{焦距}{光圈直径}<br>$$</p>
+</li>
+<li><p>快门速度越大时，设备晃动所产生的画面模糊越严重。<strong>安全快门</strong>指的就是画面不会因为设备晃动产生模糊的最大快门速度。</p>
+</li>
+<li><p>胶片相机中，感光度描述的是<strong>胶片对光的敏感度</strong>；电子相机中，感光度使用的是<strong>电子信号放大</strong>实现的。</p>
+</li>
+<li><p>高感光度的作用是为了在噪声增多的代价下，在暗光环境下拍摄图像。</p>
+</li>
+</ol>
+</blockquote>
+<h2 id="曝光补偿"><a href="#曝光补偿" class="headerlink" title="曝光补偿"></a>曝光补偿</h2><p>曝光补偿主要在<strong>自动曝光模式</strong>下使用。通过调整曝光补偿，相机会自动调整快门速度、光圈、感光度来实现<strong>人为的增加、渐少曝光量</strong>。</p>
+<p>曝光补偿通常以 <strong>EV（曝光值）</strong>为单位表示，通常以 1&#x2F;3、1&#x2F;2、1 EV 为调节单位，例如 IQOO Neo7 竞速版的原相机的调节单位为 1&#x2F;3 EV。</p>
+<h2 id="焦距"><a href="#焦距" class="headerlink" title="焦距"></a>焦距</h2><p>焦距决定了镜头的视角（即画面中的场景宽窄），还会影响图像的透视效果、景深，以及被摄物体的视觉比例。</p>
+<h3 id="视角构图"><a href="#视角构图" class="headerlink" title="视角构图"></a>视角构图</h3><p>焦距决定了镜头的视角范围，这也决定了拍摄画面的宽窄程度。</p>
+<ul>
+<li><strong>广角镜头</strong>（短焦距，如 18mm、24mm 等）有更广阔的视角，可以在画面中包含更多场景，适合拍摄风景、建筑和大场景的摄影。广角镜头让观众有一种身临其境的感觉。</li>
+<li><strong>标准镜头</strong>（如 50mm 左右）具有接近人眼的自然视角，拍摄出的效果接近人眼的视觉感受，因此适合人像、街拍等日常场景。</li>
+<li><strong>长焦镜头</strong>（长焦距，如 85mm、200mm 等）视角较窄，适合将远处的景物拉近，放大细节，常用于人像、体育摄影和野生动物摄影。长焦镜头可以很好地隔离主体与背景。</li>
+</ul>
+<h3 id="透视效果"><a href="#透视效果" class="headerlink" title="透视效果"></a>透视效果</h3><p>焦距影响图像的透视效果，也就是说，焦距的长短会改变场景中物体的视觉距离感：</p>
+<ul>
+<li><strong>广角镜头</strong>会产生夸张的透视效果，让前景显得特别大，背景显得特别小，拉远了物体之间的距离。这种效果可以使画面具有更强的纵深感，但如果用于人像拍摄，可能会造成失真，例如将面部夸大变形。</li>
+<li><strong>长焦镜头</strong>会压缩透视效果，看起来像是将前景和背景拉得更近。比如拍摄人像时，背景会显得更为接近主体，从而使主体与背景更为贴近，形成“压缩”效果，通常可以产生更柔和的背景虚化。</li>
+</ul>
+<h3 id="景深控制"><a href="#景深控制" class="headerlink" title="景深控制"></a>景深控制</h3><p>焦距还直接影响到图像的景深（即清晰对焦的范围）。在光圈相同的情况下，焦距越长，景深越浅，背景越容易被虚化；而焦距越短，景深越深，画面中更多的元素都能保持清晰。</p>
+<ul>
+<li><strong>广角镜头</strong>通常有较深的景深，即便光圈开大，背景也不会过于模糊，适合需要整体清晰的拍摄场景，如风景摄影。</li>
+<li><strong>长焦镜头</strong>的景深较浅，特别适合拍摄人像，因为它可以将背景虚化，从而使人物更突出，避免背景的干扰。</li>
+</ul>
+<h2 id="图像处理算法"><a href="#图像处理算法" class="headerlink" title="图像处理算法"></a>图像处理算法</h2><h3 id="去马赛克算法"><a href="#去马赛克算法" class="headerlink" title="去马赛克算法"></a>去马赛克算法</h3><p>感光元件通常采用<strong>拜耳滤色阵列</strong>的结构，每个像素只捕捉一种颜色（红、绿、蓝），因此需要通过<strong>去马赛克</strong>算法将这些单色信息转换为完整的 RGB 颜色，即根据周围像素的颜色信息<strong>插值补全</strong>，使每个像素都具备红、绿、蓝三色信息。常见的去马赛克算法有<strong>最近邻插值</strong>、<strong>双线性插值</strong>和更复杂的<strong>自适应插值</strong>方法。</p>
+<h4 id="拜尔滤色阵列"><a href="#拜尔滤色阵列" class="headerlink" title="拜尔滤色阵列"></a>拜尔滤色阵列</h4><p><strong>拜耳滤色阵列</strong>是一种用于电子相机图像传感器的色彩滤光器阵列。</p>
+<p>最常见的拜耳阵列是由一个 <strong>2x2 的重复结构</strong>组成的：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">2x2 的重复结构：</span><br><span class="line">G R</span><br><span class="line">B G</span><br><span class="line"></span><br><span class="line">拜尔阵列样例：</span><br><span class="line">G R G R G R G R</span><br><span class="line">B G B G B G B G</span><br><span class="line">G R G R G R G R</span><br><span class="line">B G B G B G B G</span><br><span class="line">... ...</span><br></pre></td></tr></table></figure>
+
+<p>在拜尔阵列中，绿色滤光片的像素数量是最多的，占据了 50%，因为人眼对绿色更敏感，且绿色对图像的感知具有更重要的作用；红色和蓝色各占 25%，分布在图像传感器中的其他位置。</p>
+<h4 id="最邻近插值"><a href="#最邻近插值" class="headerlink" title="最邻近插值"></a>最邻近插值</h4><p><strong>最近邻插值</strong>是最简单的一种插值算法。它的基本思想是：对于<strong>需要某种颜色插值</strong>的像素点，直接<strong>填充为离它最近的该颜色像素的值（已知值）</strong>。由于只涉及了最近邻像素的值，使用最邻近插值生成的图像可能会产生明显的锯齿状或块状伪影，导致图像的细节丧失。</p>
+<h4 id="双线性插值"><a href="#双线性插值" class="headerlink" title="双线性插值"></a>双线性插值</h4><p><strong>双线性插值</strong>是一种比最近邻插值更平滑的插值方法。它的基本思想是：对于<strong>需要某种颜色插值</strong>的像素点，将使用<strong>周围该颜色像素的加权平均值（只有已知值参与计算）</strong>，能够有效避免锯齿效应，得到更平滑的图像。</p>
+<h3 id="白平衡（WB）"><a href="#白平衡（WB）" class="headerlink" title="白平衡（WB）"></a>白平衡（WB）</h3><p>自动白平衡通过<strong>分析图像中的光源类型</strong>（如日光、荧光灯、阴影等），<strong>调整图像的色温</strong>来消除图像的偏色。</p>
+<p>在选择低色温模式，如“白炽灯”时，会消除一定的暖光；在选择高色温模式，如“阴影”时，会消除一定的冷光。选择不同的白平衡模式可以<strong>营造不同的拍摄氛围</strong>。</p>
+<p>大部分电子相机都提供了多种预设的白平衡模式：</p>
+<ul>
+<li><strong>自动白平衡</strong>：自动分析场景并选择最合适的色温调节，但在复杂光线条件下（如混合光源）可能会出现偏色。</li>
+<li><strong>晴天：</strong>用于阳光明媚的日间拍摄。相机设置色温为大约 5500K，适合在自然光下拍摄，不会对色温进行太多调整。</li>
+<li><strong>阴天</strong>：用于阴天或多云天气下拍摄。通常将色温设置为 6000K 或更高，以让图像看起来更暖和，弥补阴天光源的冷色调。</li>
+<li><strong>白炽灯：</strong>用于白炽灯等产生暖色光源的环境。相机会调整色温，减少黄色和橙色的色偏，通常色温设置在 2800K 左右。</li>
+</ul>
+<h2 id="情景模式"><a href="#情景模式" class="headerlink" title="情景模式"></a>情景模式</h2><p>以 IQOO Neo7 竞速版原相机为例。</p>
+<h3 id="夜晚模式"><a href="#夜晚模式" class="headerlink" title="夜晚模式"></a>夜晚模式</h3><p>夜晚模式下，快门时间默认更长，以获得更好的曝光。</p>
+<h3 id="人像模式"><a href="#人像模式" class="headerlink" title="人像模式"></a>人像模式</h3><p>人像模式下，默认使用标准镜头焦距和更的大光圈值（深景深），以拍摄更接近人眼视觉、更清晰的人像。</p>
+<h3 id="抓拍模式"><a href="#抓拍模式" class="headerlink" title="抓拍模式"></a>抓拍模式</h3><p>抓拍模式下，快门时间默认更短，以获得更好的画面凝固程度，清晰捕捉动作。</p>
+<h2 id="Android-Camera-框架"><a href="#Android-Camera-框架" class="headerlink" title="Android Camera 框架"></a>Android Camera 框架</h2></div>
+        
+          <div class="post-copyright">
+                  <div class="copyright-item">
+                      <span> 作者: Lyana-nullptr</span>
+                  </div>
+                  <div class="copyright-item">
+                      <span> 链接: <a href="http://lyana-nullptr.github.io/2024/11/05/imaging-system-engineer-rush-planing/">http://lyana-nullptr.github.io/2024/11/05/imaging-system-engineer-rush-planing/</a></span>
+                  </div>
+                  <div class="copyright-item">
+                      <span> 声明: 本博客所有文章除特别声明外，均采用许可协议 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> 转载请注明出处！</span>
+                  </div>
+          </div>
+        
+  </div>
+
+  <div class="share-reward">
+    <div class="share">
+        
+<div class="social-share" data-sites="facebook,twitter,wechat,weibo,qq"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css">
+<script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script>
+
+
+      </div>
+        <div class="reward">
+          
+        </div>
+    </div>
+    
+    <div class="post_tags">
+      
+        <i class="fas fa-tag"></i> <a href="/tags/%E5%BD%B1%E5%83%8F%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88/" class="tag">影像系统工程师</a>
+      
+    </div>
+    <div class="post-nav">
+      
+      
+        <div class="post-nav-next post-nav-item">
+            <a href="/2024/10/29/cpp-rush-planing/" >C++ 冲刺计划（Java 版）<i class="fa fa-chevron-right"></i></a>
+        </div>
+      
+    </div>
+      
+
+
+
+
+</article>
+
+    
+<a id="gotop" href="javascript:" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    
+
+
+
+
+
+
+    
+<div id="bottom-outer">
+    <div id="bottom-inner">
+        © 2024 <i class="fa fa-heart" id="heart"></i> Lyana-nullptr
+        <br>
+        Powered by
+        <a target="_blank" rel="noopener" href="http://hexo.io">hexo</a> | Theme is <a target="_blank" rel="noopener" href="https://github.com/a2396837/hexo-theme-blank/">blank</a>
+        
+          <div class="icp-info">
+            
+          <a href="" target="_blank"> </a>
+        </div>
+        
+    </div>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/layui-src@2.5.5/dist/layui.min.js"></script>
+
+
+
+  
+    <script src="/js/script.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+  
+
+ 
+
+
+
+  <script>
+    window.lazyLoadOptions = {
+      elements_selector: 'img',
+      threshold: 0
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script>   
+  
+
+
+  <script>
+    var images = $('img').not('.nav-logo img').not('.card img').not($('a>img')).not('.reward-content img')
+    images.each(function (i, o) {
+      var lazyloadSrc = $(o).attr('data-src') ? $(o).attr('data-src') : $(o).attr('src')
+      $(o).wrap(`<a href="${lazyloadSrc}" data-fancybox="group" data-caption="${$(o).attr('alt')}" class="fancybox"></a>`)
+    })
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script>
+  <script>
+        $().fancybox({
+      selector: '[data-fancybox]',
+      loop: true,
+      transitionEffect: 'slide',
+      protect: true,
+      buttons: ['slideShow', 'fullScreen', 'thumbs', 'close']
+    })
+  </script>   
+  
+
+
+  <script>
+  if (!window.MathJax) {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]],
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+              const display = !!node.type.match(/; *mode=display/)
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+              const text = document.createTextNode('')
+              node.parentNode.replaceChild(text, node)
+              math.start = {node: text, delim: '', n: 0}
+              math.end = {node: text, delim: '', n: 0}
+              doc.math.push(math)
+            }
+          }, '']
+        }
+      }
+    }
+    
+    var script = document.createElement('script')
+    script.src = "https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"
+    script.id = 'MathJax-script'
+    script.async = true
+    document.head.appendChild(script)
+  } else {
+    MathJax.startup.document.state(0)
+    MathJax.texReset()
+    MathJax.typeset()
+  }
+  </script>
+  
+
+
+  
+<script>
+if (document.getElementsByClassName('mermaid').length) {
+    if (window.mermaidJsLoad) mermaid.init()
+    else {
+      $.getScript("https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js", function () {
+        window.mermaidJsLoad = true
+        mermaid.initialize({
+          theme: "default",
+        })
+      })
+    }
+  }
+  </script>
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/gh/a2396837/CDN@latest/js/firework.js"></script>
+  
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js"></script>
+<script>
+!function (e, t, a) {
+  var initCopyCode = function(){
+    var copyHtml = '';
+    copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+    copyHtml += '  <i class="fa fa-clipboard"></i><span>复制</span>';
+    copyHtml += '</button>';
+    $(".highlight .code pre").before(copyHtml);
+    new ClipboardJS('.btn-copy', {
+      target: function(trigger) {
+        return trigger.nextElementSibling;
+      }
+    });
+  }
+  initCopyCode();
+}(window, document);
+</script>  
+  
+
+<script>
+  var btntop = $('#gotop');
+  btntop.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
+  });
+
+  var $table = $('.content table').not($('figure.highlight > table'))
+$table.each(function () {
+  $(this).wrap('<div class="table-wrap"></div>')
+})
+</script>
+
+
+
+</html>
