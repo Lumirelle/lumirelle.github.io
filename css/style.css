@@ -15,7 +15,7 @@ body {
   min-height: 100%;
   background: var(--bg);
   font-size: 16px;
-  font-family: FantasqueSansM Nerd Font Mono, Optima-Regular, Optima, 方正聚珍新仿简体, PingFangSC-light, PingFangTC-light, PingFang SC, Cambria, Cochin, Georgia, Times, Times New Roman, 微软雅黑, serif;
+  font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, PingFang SC, Cambria, Cochin, Georgia, Times, Times New Roman, 微软雅黑, serif;
   -webkit-tap-highlight-color: transparent;
 }
 ::selection {
@@ -264,7 +264,7 @@ li {
 .header .title,
 .header .logo {
   text-align: center;
-  font-family: FantasqueSansM Nerd Font Mono, Optima-Regular, Optima,;
+  font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, PingFang SC, Cambria, Cochin, Georgia, Times, Times New Roman,;
   text-decoration: none;
   font-size: 5rem;
   font-weight: bold;
@@ -375,7 +375,7 @@ li {
   transition: all 400ms ease-out;
 }
 .nav .layui-container .nav-title {
-  font-family: FantasqueSansM Nerd Font Mono, Optima-Regular, Optima,;
+  font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, PingFang SC, Cambria, Cochin, Georgia, Times, Times New Roman,;
   padding: 0.5em;
   font-weight: 700;
   font-size: 1.5em;
