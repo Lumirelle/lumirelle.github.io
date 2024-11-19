@@ -1,0 +1,91 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="6rTSg-sHGROMRJMmPQCn">
+    <mxGraphModel dx="1562" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-1" target="pZ-ex9k6FzTNx2L7zwiv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-1" value="HTML &amp;amp; HTML5" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-6" target="pZ-ex9k6FzTNx2L7zwiv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-6" target="pZ-ex9k6FzTNx2L7zwiv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-6" value="CSS &amp;amp; CSS3" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-7" value="LESS &amp;amp; SASS/SCSS" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-10" target="pZ-ex9k6FzTNx2L7zwiv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-10" target="pZ-ex9k6FzTNx2L7zwiv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-10" value="JS &amp;amp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ES6&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-12" value="TS &amp;amp; ES 7" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-16" target="pZ-ex9k6FzTNx2L7zwiv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-16" value="JQuery" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-18" target="pZ-ex9k6FzTNx2L7zwiv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-18" target="pZ-ex9k6FzTNx2L7zwiv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-18" value="Vue2 &amp;amp; Vue3" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-20" value="Vue Router &amp;amp; Pinia/Vuex" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="960" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-22" target="pZ-ex9k6FzTNx2L7zwiv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-22" target="pZ-ex9k6FzTNx2L7zwiv-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-22" value="React" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-23" value="React Router &amp;amp; Redux" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-26" target="pZ-ex9k6FzTNx2L7zwiv-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-26" value="Node.js" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-28" target="pZ-ex9k6FzTNx2L7zwiv-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-28" value="Webpack" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;fontColor=default;" edge="1" parent="1" source="pZ-ex9k6FzTNx2L7zwiv-30" target="pZ-ex9k6FzTNx2L7zwiv-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-30" value="前端工程化" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1600" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ-ex9k6FzTNx2L7zwiv-32" value="前端性能优化" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=方正聚珍新仿简体;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1600" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
