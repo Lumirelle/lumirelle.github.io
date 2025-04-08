@@ -7,10 +7,10 @@
 
   <p>
     <a href="../../stargazers">
-      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Lyana-nullptr/lyana-nullptr.github.io?style=flat">
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Lumirelle/lumirelle.github.io?style=flat">
     </a>
     <a href="LICENSE">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/Lyana-nullptr/lyana-nullptr.github.io">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/Lumirelle/lumirelle.github.io">
     </a>
   </p>
 
